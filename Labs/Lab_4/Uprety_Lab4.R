@@ -55,6 +55,7 @@ print(Fibonacci)
 n <- 2500
 K <- 10000
 r <- 0.8 
+time <- c(1:12)
 for (t in seq(2, 12)) {
   n[t] <- n[t-1] + (r * n[t-1] * (K - n[t-1]) / K)
   print (n[t])
