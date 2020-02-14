@@ -5,15 +5,19 @@ for ( i in seq(1,10)) {print("hi")}
 TenDollars <- 10
 FiveDollars <- 5
 OneWeekOfGum <- 2.68
-for (i in seq(1,8)) {now <- TenDollars + FiveDollars - OneWeekOfGum
+for (i in seq(1,8)) {
+  now <- TenDollars + FiveDollars - OneWeekOfGum
 print (now) 
-TenDollars <- now}
+TenDollars <- now
+}
 #Conservation Biologist problem; calculating the expected population size for the next 7 years
 FivePercent <- 0.05
 CurrentPopulation <- 2000
-for (i in seq(1,7)) {new <-abs(CurrentPopulation * FivePercent - CurrentPopulation)
+for (i in seq(1,7)) {
+  new <-abs(CurrentPopulation * FivePercent - CurrentPopulation)
 print (new)
-CurrentPopulation <- new}
+CurrentPopulation <- new
+}
 #Discrete-time logistic growth equation used to measure population abundance over time 
 n <- 2500
 K <- 10000
@@ -42,9 +46,11 @@ res
 zero <- 0
 one <- 1
 two <- 2
-for(i in seq(1,18)) {start <- zero * two + one
+for(i in seq(1,18)) {
+  start <- zero * two + one
 print(start)
-zero<- start }
+zero<- start 
+}
 #Vector that contains the first 20 Fibonacci numbers
 Fibonacci <- numeric(20)
 Fibonacci[2] <-1
