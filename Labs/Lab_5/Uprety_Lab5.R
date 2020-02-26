@@ -59,31 +59,27 @@ m <- 0.05
 k <- 0.1
 
 #Create a time vector and 2 additional vectors for n over time and to store values of p 
-Time <- c(2:totalGenerations)
-n <- n[t-1] + (r * n[t-1]) - (a * n[t-1] * p[t-1])
-p <- p[t-1] + (k * a * n[t-1] * p[t-1]) - (m * p[t-1])
+Time <- c(1:totalGenerations)
+n <- rep(initPrey, totalGenerations)
+p <- rep(initPred, totalGenerations)
+
 
 #Create a loop that implements the calculations 
-for(t in seq(1:totalGenerations)) {
-  n[t] <- n[t-1] + (r * n[t-1])- (a * n[t-1] * p[t-1])
+for(t in 2:totalGenerations) {
+  n[t] <- n[t-1] + (r * n[t-1]) - (a * n[t-1] * p[t-1])
   p[t] <- p[t-1] + (k * a * n[t-1] * p[t-1]) - (m * p[t-1])
-
-}
-print(n[t])
-print(p[t])
-#Adding some if statements to check for negative numbers each generation
-for(t in seq(1:totalGenerations)) {
-if (n[t] < 0) {
-  n[t] <- 0
-}
+  #Adding some if statements to check for negative numbers each generation
+  if(n[t] <0 ) {
+    n[t] <- 0
+  }
 }
 
 #Create a plot of the abundances of prey and predators over time 
-plot(time,data)
-plot(n,p)
-Lines(x,y)
+plot(Time,n)
+lines(Time,n)
 
 #Create a matrix of the results 
-myResults <- matrix(nrow- , ncol=)
-
+myResults <- cbind(Time, n, p) 
+myResults
+write.csv(x=myResults, file="myResults.csv" )
 
