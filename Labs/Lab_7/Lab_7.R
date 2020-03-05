@@ -33,17 +33,15 @@ TestingVector
 myAbs(TestingVector)
 
 #Problem 3 write a function that returns a vector of the first n Fibonacci numbers where n is any integer >=3. 
-#preallocation step is to rep something fib -> rep(1,n) fib[1] <- s
   FF <- function(n,s) {
-  Fibonacci <- numeric(n)
+    Fibonacci <- numeric(n)
   Fibonacci[2] <-1
   for (i in 3:n) Fibonacci[i] <- Fibonacci [i-2] + Fibonacci [i-1]
-  
-  return(FF)
+  print("First 20 Fibonacci Numbers")
+  print(Fibonacci)
 }
-
 #Testing out the function 
-FF(n=10, 0)
+FF(n=12, 1)
 
 #Problem 4 write a function that takes two numbers as its arguments and returns the square of the difference between them
 SquareDifference <- function(num1, num2) {
@@ -55,22 +53,32 @@ SquareDifference <- function(num1, num2) {
 SquareDifference(3,5)
 
 #Call the function where the first argument is the vector c(2, 4, 6) and the second argument is the number 4. 
+VectorTest <- function(x=2, y=4, z=6 ) {
+  StoringResult <- c(x,y,z)
+  return(StoringResult)
+}
+TestingTheVector <- VectorTest()
+TestingTheVector
 
+SquareDifference(TestingTheVector, 4)
 
 #Problem 4b. write a function that calculates the average of a vector of numbers. 
-AverageVector <- function()
-
+AverageVector <- function(first) {second=sum(first)/length(first);second}
 
 #Demonstrate use of this function by calling it with the vector c(5, 15, 10)
+CreateVector <- c(5,15,10)
+AverageVector(CreateVector)
 
-  
+#Converting the data frame into a vector 
+y <- read.csv("/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Labs/Lab_7/DataForLab07.csv")
+MyNewVector <- y$x
+
 #Demonstrate the function by calling it with the data 
-
+AverageVector(MyNewVector)
   
-#Problem 4c. write a function that calculates and returns the sum of squres as defined 
+#Problem 4c. write a function that calculates and returns the sum of squares as defined 
+SumOfSquares <- function(third) {fourth=sum((third -AverageVector(third))^2);fourth}
 
-  
 #Demonstrate the sum of squares function works by calling it with the data 
-
-
+SumOfSquares(MyNewVector)
 
