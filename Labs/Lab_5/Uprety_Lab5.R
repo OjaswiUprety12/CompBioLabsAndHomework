@@ -86,4 +86,6 @@ lines(Time,n)
 myResults <- cbind(Time, n, p) 
 myResults
 write.csv(x=myResults, file="myResults.csv" )
+ 
+
 
