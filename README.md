@@ -6,7 +6,7 @@
 
 ## **This repository will contain the following:**
 
-### **Lab submissions**
+### **Lab Submissions**
 #### _Lab 01:_ Getting Familiar with the Terminal 
 #### _Lab 02:_ Using GitHub
 #### _Lab 03:_ Introduction to R 
@@ -15,7 +15,7 @@
 #### _Lab 07:_ Writing our own Functions
 #### _Lab 08:_ Practicing Documentation and Metadata
 
-### **An independent project**
-### **A take home final examination** 
+### **An Independent Project**
+### **A Take Home Final Examination** 
 
 
