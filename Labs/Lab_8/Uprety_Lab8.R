@@ -52,5 +52,7 @@ TimeLogisticGrowthModel <- function(r,K,Abundance,NumberOfGen) {
 
 #Store results as a vector and write it into a csv file that will go in the Lab_8 directory 
 GenerationAndAbundance <- TimeLogisticGrowthModel(0.8,5000,15,20)
-write.csv(x=GenerationAndAbundance, file="GenerationAndAbundance.csv")
+write.csv(x=GenerationAndAbundance, file="GenerationAndAbundance.csv", row.names=FALSE)
+
+
 
