@@ -5,7 +5,9 @@
 ### Abundance [t] = Abundance [t - 1] + ( r * Abundance [t -1] * (K - Abundance [t - 1) / K  )
 
  • Abundance[t] represents the abundance of the population at time t
+ 
  • r represents the intrinsic growth rate of the population 
+ 
 • K represents the environmental carrying capacity for the population 
 
 # Steps for Developing this Model 
