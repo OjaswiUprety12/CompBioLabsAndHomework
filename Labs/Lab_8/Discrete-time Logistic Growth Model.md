@@ -11,4 +11,6 @@ Abundance [t] = Abundance [t - 1] + ( r * Abundance [t -1] * (K - Abundance [t -
 ## Code was added to the function so that it produces a plot of the data it generates. A graph of Time vs Abundance should be displayed. 
 ## Additional code was added to write the data set into an excel file into the directory of your choice. 
 
-[Visit GitHub for More Detail!] (github.com/flaxmans/CompBio_on_git/blob/master/Labs/Lab08/Lab08_documentation_and_metadata.md)
+[Visit GitHub for More Detail!](**github.com/flaxmans/CompBio_on_git/blob/master/Labs/Lab08/Lab08_documentation_and_metadata.md**)
+
+
