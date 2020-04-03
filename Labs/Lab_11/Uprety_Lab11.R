@@ -8,7 +8,32 @@ GlobalWoodDataSet <- read.csv("GlobalWoodData.csv", stringsAsFactors = F)
 
 #Changing the name of the Density Column 
 colnames(GlobalWoodDataSet)
-names(GlobalWoodDataSet) [names(GlobalWoodDataSet) =="Wood.density..g.cm.3."] <- "Wood Density g/cm^3"
+names(GlobalWoodDataSet) [names(GlobalWoodDataSet) =="Wood.density..g.cm.3."] <- "Wood Density"
 GlobalWoodDataSet
 
-#Removing the rows with missing data 
+#First identifying the rows with missing data 
+GlobalWoodDataSet [! complete.cases(GlobalWoodDataSet),]
+
+#Removing the row with the missing data 
+GlobalWoodDataSet[-c(12150),]
+#Reassigning my dataframe in order to drop this row entirely 
+GlobalWoodDataSet<- GlobalWoodDataSet[-c(12150),]
+
+#Problem 5: Creating a new data frame 
+#Now it includes only Family and Binominal 
+NewGlobalWoodDataSet<-select(GlobalWoodDataSet, 2, 3, 4)
+library(dplyr)
+
+#It only has one of each species listed 
+NewGlobalWoodDataSet %>% distinct(Binomial, .keep_all=TRUE)
+
+#Now it should include the mean of the Density measurements for each species. I do not think I understand the summarise function too well. 
+NewGlobalWoodDataSet %>% summarise(mean(Wood Density))
+
+#Problem number 6: Making a new dataframe that has the average density for each family 
+MeanFamilyDensity <- select (GlobalWoodDataSet, 2)
+MeanFamilyDensity %>% distinct(Family, .keep_all=TRUE)
+
+#Store the results by mean density 
+
+
