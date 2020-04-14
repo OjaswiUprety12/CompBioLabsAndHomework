@@ -8,7 +8,7 @@ Previous studies have shown that teleost fishes show different magnitudes of beh
 
 ## Summary of Data to be Analyzed 
 
-In this study it will be demonstrated that increased pCO2 levels decrease the amount of carbonate in the ocean and increase the presence of bicarbonate in the blood. The differences and similarities between nocturnal swimming patterns, either many starts and stops or a transition to more continuous swimming between the treatment groups, will be displayed. There will be an investigation of the connection between an increase in plasma concentration and stress signaling levels. Also, a comparison of female and male outcomes for absolute lateralization results will be conducted to recognize if there is presence of bias. Finally a model will be created to hypothesize the possible increase of hyperactivity of the shark population in the year 2100. 
+This project will demonstrate that increased pCO2 levels decrease the amount of carbonate in the ocean and increase the presence of bicarbonate in the blood. The differences and similarities between nocturnal swimming patterns. There will be an investigation of the connection between an increase in plasma concentration and stress signaling levels. Also, a comparison of female and male outcomes for absolute lateralization results will be conducted to recognize if there is presence of bias. Finally a model will be created to hypothesize the possible increase of hyperactivity of the shark population in the year 2100. 
 
 
 ## Goals of the Original study 
