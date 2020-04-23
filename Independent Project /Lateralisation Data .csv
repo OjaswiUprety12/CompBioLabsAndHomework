@@ -1,0 +1,18 @@
+Treatment,Number of Left Turns,Number of Right Turns,Lateralization,Absolute lateralization
+Control,15,25,25,25
+Control,21,19,-5,5
+Control,23,17,-15,15
+Control,17,23,15,15
+Control,20,20,0,0
+Control,22,18,-10,10
+Control,14,26,30,30
+CO2,8,32,60,60
+CO2,32,8,-60,60
+CO2,20,20,0,0
+CO2,26,14,-30,30
+CO2,25,15,-25,25
+CO2,12,28,40,40
+CO2,26,14,-30,30
+CO2,14,26,30,30
+CO2,23,17,-15,15
+CO2,18,22,10,10
