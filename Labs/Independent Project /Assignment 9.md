@@ -16,9 +16,6 @@
 #### _Lab 08:_ Practicing Documentation and Metadata
 
 ### **An Independent Project**
-#### Part 1 Defining the Challgene
-#### Part 2 A Fully Reproducible Analysis 
-
 ### **A Take Home Final Examination** 
 
 
