@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-Since the beginning of the industrial revolution there has been a gradual growth in atmospheric CO2 concentration. From 1950 onward there has been a sharp rise in CO2 due to the burning of fossil fuels and other anthropogenic activities. Currently the global average is measured to be at 407 ppm, but according to the RCP8.5 high emission scenario the CO2 concentration could reach 990 ppm by 2100. The complication that arises from this initial problem is ocean acidification. When CO2 reacts with sea water it releases hydrogen ions which compete with marine organisms for carbonate and this intereferes with the growth of coral and plankton. A research question that has not been studied enough is, could the increased water pCO2 induce physiological and behavioral effects in larger marine life? 
+Since the beginning of the industrial revolution there has been a gradual growth in atmospheric CO2 concentration. From 1950 onward there has been a sharp rise in CO2 due to the burning of fossil fuels and other anthropogenic activities. (Angus, I) Currently the global average is measured to be at 407 ppm, but according to the RCP8.5 high emission scenario the CO2 concentration could reach 990 ppm by 2100. (Green, Leon) The complication that arises from this initial problem is ocean acidification. When CO2 reacts with sea water it releases hydrogen ions which compete with marine organisms for carbonate and this intereferes with the growth of coral and plankton. A research question that has not been studied enough is, could the increased water pCO2 induce physiological and behavioral effects in larger marine life? 
 
-Previous studies have shown that teleost fishes show different magnitudes of behavioural disturbances when exposed to elevated CO2 levels. The data set chosen for furthur anaylsis focuses on the possible affects of ocean acidification on elasmobranchs specifically. Because shark populations are already declining globally this increased risk could cause complete shark species extinction. My driving questions(s) for this project are: How do elevated CO2 levels affect the blood chemistry, absolute lateralization, and total swimming time of elasmobranch fishes? Is there an obvious outcome difference between male and female sharks?
+Previous studies have shown that teleost fishes show different magnitudes of behavioural disturbances when exposed to elevated CO2 levels. The data set chosen for furthur anaylsis focuses on the possible affects of ocean acidification on elasmobranchs specifically. Because shark populations are already declining globally this increased risk could cause complete shark species extinction. I will be repeating an analysis the original paper described as: How do elevated CO2 levels affect the blood chemistry, absolute lateralization, and total swimming time of elasmobranch fishes? Another driving question that was not included in the original paper that I will be investigating: Is there an obvious outcome difference between male and female sharks?
 
 ## Summary of Data to be Analyzed 
 
@@ -34,6 +34,8 @@ First, we will create a graph using data from NASA about the relentless rise of 
 
 
 ## References 
+
+Angus, I. (2016). Facing the anthropocene: Fossil capitalism and the crisis of the earth system.
 
 Carbon Dioxide Concentration. (2020, February 20). Retrieved from [https://climate.nasa.gov/vital-signs/carbon-dioxide/!]
 
