@@ -25,7 +25,7 @@ Give about 1 - 2 paragraphs of explanation.  The scientists exposed
 What YOU did with the data and how you did it:
 Verbally describe what your approach was and how you achieved it. You don't need to include code here; rather, the goal is to give the reader an idea of what your code does and why and how it does it. Don't give the results here, though. Throughout this section, strive to be crystal clear about which things the original authors did and which things you did. Saying "this study" is ambiguous in that regard, so make it clear.
 
-![image](/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Independent Project /Rise of Atmospheric CO2.png)
+[/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Independent Project /Rise of Atmospheric CO2.png!]
 
 ## Results and Conclusions
 
