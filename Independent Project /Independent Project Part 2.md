@@ -12,22 +12,30 @@ Previous studies have shown that teleost fishes show different magnitudes of beh
 
 ## Methods 
 
-The source of the data: This data 
-Describe the data you used to study your question and its origins. (Give FULL citations with working hyperlinks for the original publication AND the data package, if applicable).
+This data set was obtained from the Dryad database: Green, Leon; Jutfelt, Fredrik; Green, L.; Jutfelt, F. (2014), Data from: Elevated carbon dioxide alters the plasma composition and behaviour of a shark, Dryad, Dataset,[https://doi.org/10.5061/dryad.6s713!] 
+All of the measurements that were carried out existed in a single excel file, so 3 independent spreadsheets were created  titled "Blood Chemistry Data", "Lateralisation Data", and "Swimming Behavior Data". 
+Describe the data you used to study your question and its origins. 
+
 
 Give a description (one or two paragraphs) of how the data were produced.
 
+The data set is 73kB and has character, integer, and numeric elements. 
 Give a description of the size and nature of the data. Feel free to comment on any special challenges presented by any aspect of the data.
 
 What the original authors did with the data:
-Give about 1 - 2 paragraphs of explanation.  The scientists exposed 
+Give about 1 - 2 paragraphs of explanation.  The scientists exposed 20 small-spotted sharks to either control (401 ppm) or high pCO2 (993 ppm) water treaments for 4 weeks and then examined both the biochemistry and demeanor of the sharks. The authors did not see compelling differences in a variety of categories such as growth, weight, mortality, and oxygen consumption. But the authors did see significant differences between the control and CO2 exposed sharks in plasma concentrations, the absolute lateralization parameter, swimming events and timing, and denticles size among females and males. They speculated that these changes could have a serious impact, even lethal, on the future health of these sharks. The increase in continuous swimming could be a result of a major neurological problem and if the ocean continues to be our dumping ground for CO2 it could lead to the extinction of elasmobranchs. 
 
 What YOU did with the data and how you did it:
 Verbally describe what your approach was and how you achieved it. You don't need to include code here; rather, the goal is to give the reader an idea of what your code does and why and how it does it. Don't give the results here, though. Throughout this section, strive to be crystal clear about which things the original authors did and which things you did. Saying "this study" is ambiguous in that regard, so make it clear.
+I decided to repeat an analysis the original paper discussed. First, I wanted to provide a visualization that revealed how atmospheric CO2 levels were continuing to rise at am alarming rate and showed no signs of slowing down. 
 
-[/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Independent Project /Rise of Atmospheric CO2.png!]
+This graph was created using the data from NASA, Vital Signs of the Planet Measyred at Mauna Loa Observatory, Hawaii.
+
+![](/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Independent Project /Rise of Atmospheric CO2.png)
 
 ## Results and Conclusions
+
+The analysis successfully showed that ocean acidification increases the presence of hydrogen ions and therefore we see an increase in HCO3- in the sharks blood. 
 
 What did you find? How does this relate to your question? Include at least one visualization.
 
