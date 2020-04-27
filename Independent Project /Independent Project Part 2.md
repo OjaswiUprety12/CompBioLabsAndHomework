@@ -31,7 +31,7 @@ I decided to repeat an analysis the original paper discussed. First, I wanted to
 
 This graph was created using the data from NASA, Vital Signs of the Planet Measyred at Mauna Loa Observatory, Hawaii.
 
-![](/Users/ojaswiuprety/Desktop/EBIO4420/CompBioLabsAndHomework/Independent Project /Rise of Atmospheric CO2.png)
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Rise%20of%20Atmospheric%20CO2.png!]
 
 ## Results and Conclusions
 
