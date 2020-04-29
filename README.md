@@ -14,6 +14,8 @@
 #### _Lab 05:_ Practicing Loops and Conditionals 
 #### _Lab 07:_ Writing our own Functions
 #### _Lab 08:_ Practicing Documentation and Metadata
+#### _Lab 09:_ Parsing Dates and Times from a Real Data File 
+#### _Lab 11:_ Data filtering, subsetting, summarizing, and plotting
 
 ### **An Independent Project**
 #### Part 1 Defining the Challenge
