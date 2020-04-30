@@ -45,7 +45,7 @@ The average swimming times for CO2 exposed males and females vs control males an
 Control Female= 2104 seconds 
 CO2 Female= 1869 seconds 
 Control Male= 1603 seconds 
-CO2 Male= 1646 seconds
+CO2 Male= 1646 seconds.
 There was not a significant difference observed and more data would need to obtained to claim that there was a bias towards either male or female. 
 Both the control and CO2 exposed sharks showed asymmetric behaviour, favoring one side. But it was discovered that absolute lateralization was greater in the CO2 exposed sharks and they were turning more which could lead to more behavioral problems such as increased hyperactivity. 
 
