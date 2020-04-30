@@ -70,17 +70,9 @@ MeanOfGenders <- NewGendersSwimmingBehaviourData %>% group_by(Treatment, Sex) %>
 #Import Third Data Set Analysing the lateralization data 
 Lateralization.data <- read.csv(file="Lateralisation Data .csv")
 
-#This graph was created to show the  
+#This graph was created to show the difference in absolute lateralization between CO2 exposed sharks vs control sharks 
 ggplot(data = Lateralization.data, mapping = aes(x = Treatment, y = Absolute.lateralization)) + 
   geom_boxplot() +
-  ggtitle("Absolute lateralization")
-
-
-
-
-
-
-
-
+  ggtitle("Treatment vs Absolute Lateralization")
 
 
