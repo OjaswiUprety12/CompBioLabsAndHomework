@@ -28,19 +28,19 @@ The scientists exposed 20 small-spotted sharks to either control (401 ppm) or hi
 
 **My Approach to the Data**: 
 I decided to repeat an analysis the original paper discussed. First, I wanted to provide a visualization that revealed how atmospheric CO2 levels were continuing to rise at an alarming rate and showed no signs of slowing down. The image below was created using the data from NASA, Vital Signs of the Planet Measyred at Mauna Loa Observatory, Hawaii.
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Rise%20of%20Atmospheric%20CO2.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Rise%20of%20Atmospheric%20CO2.png!]
 Next, I wanted to show that the increase of atmospheric CO2 was increasing the HCO3- levels in the sharks, which can be seen by the box plot created below. Bicarbonate is an important regulator of pH and the authors cited that the behavioural shift of the sharks was due to this change in plasma concentration. 
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Treatment%20vs%20HCO3-%20Concentration.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Treatment%20vs%20HCO3-%20Concentration.png!]
 The authors discovered that the CO2-exposed animals experienced a longer swimming time, but they did not compare how the times differed among males and females. I created a graph to see if there was an obvious difference between the 2 sexes. In the plot below it can be seen that both sexes experience almost identical levels but control females experience slightly longer swimming times and CO2 exposed females experience shorter swiming times and vice versa for the males. 
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Treatment%20vs%20Total%20Swimming%20Time.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Treatment%20vs%20Total%20Swimming%20Time.png!]
 The last behavioural change the authors noticed was that the absolute lateralization was different between the treatment groups. The graph below shows that in CO2 exposed sharks there was increased absolute lateralization which indicates a change in swimming pattern. But the authors also propose this change could be due to the sharks searching for better water quality. 
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Treatment%20vs%20Absolute%20Lateralization.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Treatment%20vs%20Absolute%20Lateralization.png!]
 
 ## Results and Conclusions
 
 The analysis successfully showed that ocean acidification increases the presence of hydrogen ions and therefore we see an increase in HCO3- in the sharks blood. Graphs were created to show the distribution of Cl- and Na+ concentration in the CO2 exposed sharks vs the control group. The plots show that among the control sharks concentrations tend to stay lower with a few outliers while the CO2 exposed sharks fall under increasingly high concentrations. These increases in electrolyte levels can lead to further medical complications in the shark population.  
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Treatment%20vs%20Cl-%20Concentration.png!]
-[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Treatment%20vs%20Na%2B%20Concentration.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Treatment%20vs%20Cl-%20Concentration.png!]
+[https://github.com/OjaswiUprety12/CompBioLabsAndHomework/blob/master/Independent%20Project%20/Visualizations/Treatment%20vs%20Na%2B%20Concentration.png!]
 The average swimming times for CO2 exposed males and females vs control males and females were calculated. These were the results: 
 Control Female= 2104 seconds 
 CO2 Female= 1869 seconds 
